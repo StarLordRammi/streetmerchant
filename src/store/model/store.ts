@@ -24,6 +24,7 @@ export type Brand =
   | 'gigabyte'
   | 'inno3d'
   | 'kfa2'
+  | 'hermanmiller'
   | 'leadtek'
   | 'microsoft'
   | 'msi'
