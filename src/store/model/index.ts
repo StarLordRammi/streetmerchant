@@ -2,6 +2,7 @@ import {config, defaultStoreData} from '../../config';
 import {AComPC} from './acompc';
 import {Ldlc} from './ldlc';
 import {Materiel} from './materiel';
+import {hand} from './hand';
 import {Adorama} from './adorama';
 import {Akinformatica} from './akinformatica';
 import {Allneeds} from './allneeds';
@@ -157,7 +158,8 @@ import chalk from 'chalk';
 
 export const storeList = new Map([
   [AComPC.name, AComPC],
-  [Adorama.name, Adorama],
+  [Adorama.name, Adorama],  
+  [hand.name, hand],
   [Akinformatica.name, Akinformatica],
   [Allneeds.name, Allneeds],
   [Alternate.name, Alternate],
