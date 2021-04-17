@@ -1,6 +1,6 @@
 import {Store} from './store';
 
-export const 2ndhnd: Store = {
+export const hand: Store = {
   currency: '£',
   labels: {
     inStock: {
@@ -19,5 +19,5 @@ export const 2ndhnd: Store = {
       url: 'https://www.2ndhnd.com/collections/herman-miller/products/copy-of-herman-miller-aeron-chair-size-c',
     },
   ],
-  name: '2ndhnd',
+  name: 'hand',
 };
